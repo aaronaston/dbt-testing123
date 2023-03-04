@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: fhir
+    database: testing123  
+    schema: public
+    tables:
+      - name: rte_patient
+      - name: rte_patient_identifiers
+
